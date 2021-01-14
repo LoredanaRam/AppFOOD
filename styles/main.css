@@ -1,0 +1,28 @@
+header {
+    background-color: royalblue;
+    /*display: grid;
+    grid-template-columns: 500px 120px 200px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    height: 90%;
+    width: 90%;
+    border: 2px solid red;
+}
+
+.cards-container {
+    height: 150px;
+    width: 120px;
+    margin: 2px;
+    padding: 0;
+    border-radius: 5%;
+    border: 2px solid red;
+}
+
+.cards-container img {
+    height: 100px;
+    width: 100px;
+}
+
