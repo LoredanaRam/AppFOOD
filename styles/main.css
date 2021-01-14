@@ -1,6 +1,5 @@
 header {
-    /*display: grid;
-    grid-template-columns: 500px 120px 200px;*/
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
@@ -17,6 +16,10 @@ p {
 header img {
     height: 90%;
     width: 80%;
+}
+
+.container {
+    background-color: white;
 }
 
 .cards-container {
