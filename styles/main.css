@@ -6,11 +6,14 @@ header {
 
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    font-size: 30px;
 }
 
-p {
+header p {
     font-family: 'Source Sans Pro', sans-serif;
-    color: silver;
+    color: #B4B4B4;
+    font-size: 13px;
 }
 
 header img {
@@ -20,6 +23,12 @@ header img {
 
 .container {
     background-color: white;
+}
+
+.cards-container p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #B4B4B4;
+    font-size: 12px;
 }
 
 .cards-container {
@@ -34,7 +43,7 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
 .cards-container img {
@@ -42,3 +51,44 @@ header img {
     width: 70px;
 }
 
+.food-detail-container {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.food-detail-container img {
+    object-fit: cover;
+    width: 23vw;
+    height: 380px;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 0;    
+}
+
+.precio {
+    border: 2px solid red;
+    color: #FFD700;
+}
+
+.nombre {
+    border: 2px solid red;
+    color: #000000;
+}
+.detalle-nombre {
+    border: 2px solid red;
+    color: #0000006E;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.increment {
+    border-radius: 100%;
+}
